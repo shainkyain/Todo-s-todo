@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>updateTodo Todo</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-light bg-light mb-3 p-1">
+    <a class="navbar-brand m-1" href="/welcome">Todo's-Todo</a>
+    <div class="collapse navbar-collapse">
+        <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/welcome">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="/list-todos">Todos</a></li>
+        </ul>
+    </div>
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/logout">Logout</a></li>
+    </ul>
+</nav>
+<div class="container">
+
+<h1> Enter Todo details</h1>
+<!--    <pre></pre>-->
+
+    <form method="post" class="form-group" th:action="@{/save-updated-todo}" th:object="${todo}"  >
+        <input type="hidden" name="id" th:value="${todo.id}"/>
+        Description : <input type="text"  th:value="*{description}" name="description" required="required"/>
+        <small class="form-text text-muted">Description should be of 10 characters or more.</small>
+        <br>
+        <label for="target_date">Target Date:</label>
+        <input type="date" th:value="*{targetDate}"  id="target_date" name="targetDate">
+
+        <input type="submit" class="btn btn-success"/>
+    </form>
+
+
+
+
+
+
+<!--    container end-->
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
