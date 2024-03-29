@@ -59,6 +59,17 @@ Run the following command:
 **Access the Application:**
 
 Open a web browser and go to >>> **http://localhost:8080** to access the application.
+
+**Initial passWords To use Application**
+
+- Username: d
+  Password: d
+  
+- Username: dd
+  Password: dd
+  
+- Username: ddd
+  Password: ddd
  
 **Contributor**
 
