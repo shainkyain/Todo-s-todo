@@ -1,4 +1,4 @@
-**Todo's Todo - Todo List Manager**
+# **Todo's Todo - Todo List Manager**
 
 **Description**
 
@@ -70,7 +70,15 @@ Open a web browser and go to >>> **http://localhost:8080** to access the applica
   
 - Username: ddd
   Password: ddd
- 
+
+   **ScreenShots**
+ ![Screenshot (3)](https://github.com/shainkyain/Todo-s-todo/assets/116502451/6d51c6be-d2bc-4767-b75f-26508e8d295c)
+![Screenshot (4)](https://github.com/shainkyain/Todo-s-todo/assets/116502451/8ecc9725-59a4-432f-b834-759f4107abbf)
+![Screenshot (5)](https://github.com/shainkyain/Todo-s-todo/assets/116502451/d242808c-800d-4267-85ab-d797f98a1206)
+![Screenshot (6)](https://github.com/shainkyain/Todo-s-todo/assets/116502451/79dc5b46-1a70-43c4-b03f-285c0d98e5d8)
+
+
+
 **Contributor**
 
 Shainky Jain  
